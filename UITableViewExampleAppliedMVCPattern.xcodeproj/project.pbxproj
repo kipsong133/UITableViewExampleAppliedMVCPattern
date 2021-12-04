@@ -15,6 +15,8 @@
 		2573B369275B62D000696854 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2573B367275B62D000696854 /* LaunchScreen.storyboard */; };
 		2573B374275B631100696854 /* TableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2573B373275B631100696854 /* TableViewModel.swift */; };
 		2573B376275B642A00696854 /* PeopleInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2573B375275B642A00696854 /* PeopleInfo.swift */; };
+		2573B379275B6A9C00696854 /* PhoneBookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2573B377275B6A9C00696854 /* PhoneBookTableViewCell.swift */; };
+		2573B37A275B6A9C00696854 /* PhoneBookTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2573B378275B6A9C00696854 /* PhoneBookTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		2573B36A275B62D000696854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2573B373275B631100696854 /* TableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewModel.swift; sourceTree = "<group>"; };
 		2573B375275B642A00696854 /* PeopleInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleInfo.swift; sourceTree = "<group>"; };
+		2573B377275B6A9C00696854 /* PhoneBookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneBookTableViewCell.swift; sourceTree = "<group>"; };
+		2573B378275B6A9C00696854 /* PhoneBookTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhoneBookTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,10 +69,7 @@
 				2573B370275B62F000696854 /* Controller */,
 				2573B35C275B62CF00696854 /* AppDelegate.swift */,
 				2573B35E275B62CF00696854 /* SceneDelegate.swift */,
-				2573B360275B62CF00696854 /* ViewController.swift */,
-				2573B362275B62CF00696854 /* Main.storyboard */,
 				2573B365275B62D000696854 /* Assets.xcassets */,
-				2573B367275B62D000696854 /* LaunchScreen.storyboard */,
 				2573B36A275B62D000696854 /* Info.plist */,
 			);
 			path = UITableViewExampleAppliedMVCPattern;
@@ -77,6 +78,7 @@
 		2573B370275B62F000696854 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				2573B360275B62CF00696854 /* ViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -84,6 +86,10 @@
 		2573B371275B62F500696854 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2573B367275B62D000696854 /* LaunchScreen.storyboard */,
+				2573B362275B62CF00696854 /* Main.storyboard */,
+				2573B377275B6A9C00696854 /* PhoneBookTableViewCell.swift */,
+				2573B378275B6A9C00696854 /* PhoneBookTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -158,6 +164,7 @@
 				2573B369275B62D000696854 /* LaunchScreen.storyboard in Resources */,
 				2573B366275B62D000696854 /* Assets.xcassets in Resources */,
 				2573B364275B62CF00696854 /* Main.storyboard in Resources */,
+				2573B37A275B6A9C00696854 /* PhoneBookTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,6 +178,7 @@
 				2573B361275B62CF00696854 /* ViewController.swift in Sources */,
 				2573B35D275B62CF00696854 /* AppDelegate.swift in Sources */,
 				2573B376275B642A00696854 /* PeopleInfo.swift in Sources */,
+				2573B379275B6A9C00696854 /* PhoneBookTableViewCell.swift in Sources */,
 				2573B35F275B62CF00696854 /* SceneDelegate.swift in Sources */,
 				2573B374275B631100696854 /* TableViewModel.swift in Sources */,
 			);
